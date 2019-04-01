@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/button/main",
+    "pages/request/main",
+    "pages/index/main",
+    "pages/logs/main"  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color":"blue",
+    "selectedColor":"red",
+    "list": [{
+      "pagePath": "pages/button/main",
+      "text": "weui",
+      "iconPath":"static/images/logo.png",
+      "selectedIconPath": "static/images/logo.png"
+    },{
+      "pagePath": "pages/request/main",
+      "text": "request",
+      "iconPath":"static/images/icon_nav_form.png",
+      "selectedIconPath": "static/images/icon_nav_form.png"
+    }, {
+      "pagePath": "pages/index/main",
+      "text": "vant",
+      "iconPath": "static/images/icon_tabbar.png",
+      "selectedIconPath": "static/images/icon_tabbar.png"
+    }]
+  }
+}
